@@ -3,7 +3,7 @@ export const API_KEYS = {
 };
 
 export const API_URLS = {
-    'FORECAST' : `http://api.openweathermap.org/data/2.5/forecast?appid=${API_KEYS.FORECAST}`
+    'FORECAST' : `http://api.openweathermap.org/data/2.5/forecast?appid=${API_KEYS.FORECAST}&units=metric`
 };
 export const ACTION_TYPE = {
     'SEARCH' : 'SEARCH_TEXT'
